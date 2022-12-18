@@ -5,7 +5,6 @@
 * @version 1.3.0
 **/
 
-
 /* ===================
 Table Of Content
 ======================
@@ -17,7 +16,7 @@ Table Of Content
 06 TOOLTIP
 07 POPOVER
 08 BACK TO TOP
-10 GLIGHTBOX
+10 GLIGHTBOX - not working, replaced with github version, loaded separately
 11 ISOTOPE
 12 CHOICES
 13 AOS ANIMATION
@@ -95,7 +94,7 @@ var e = {
         e.toolTipFunc(),
         e.popOverFunc(),
         e.backTotop(),
-        e.lightBox(),
+        // e.lightBox(),
         e.enableIsotope(),
         e.choicesSelect(),
         e.aosFunc(),
@@ -461,18 +460,20 @@ var e = {
     },
     // END: Back to Top
 
-    // START: 10 GLightbox
-    lightBox: function () {
-        var light = e.select('[data-glightbox]');
-        if (e.isVariableDefined(light)) {
-            var lb = GLightbox({
-                selector: '*[data-glightbox]',
-                openEffect: 'fade',
-                closeEffect: 'fade'
-            });
-        }
-    },
-    // END: GLightbox
+    // // START: 10 GLightbox
+
+    // lightBox: function () {
+    //     var light = e.select('[data-glightbox]');
+    //     if (e.isVariableDefined(light)) {
+    //         var lb = GLightbox({
+    //             selector: '*[data-glightbox]',
+    //             openEffect: 'fade',
+    //             closeEffect: 'fade'
+    //         });
+    //     }
+    // },    
+
+    // // END: GLightbox
 
     // START: 11 Isotope
     enableIsotope: function () {
@@ -1105,3 +1106,4 @@ var e = {
 
 };
 e.init();
+

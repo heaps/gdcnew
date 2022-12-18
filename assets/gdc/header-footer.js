@@ -226,7 +226,7 @@ Footer START -->
 			<div class="container px-0">
 				<div class="d-lg-flex justify-content-between align-items-center py-3 text-center text-md-left">
 					<!-- copyright text -->
-					<div class="text-primary-hover"> Copyrights <a href="#" class="text-body">©2022</a>. All rights reserved. </div>
+					<div class="text-primary-hover"> Copyrights <a href="#" class="text-body">&copy;2022</a>. All rights reserved. </div>
 					<!-- copyright links-->
 					<div class="justify-content-center mt-3 mt-lg-0">
 						<ul class="nav list-inline justify-content-center mb-0">

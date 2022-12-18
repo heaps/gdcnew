@@ -13,7 +13,7 @@ var styles = [
   'assets/vendor/font-awesome/css/all.min.css',
   'assets/vendor/bootstrap-icons/bootstrap-icons.css',
   'assets/vendor/tiny-slider/tiny-slider.css',
-  'assets/vendor/glightbox/css/glightbox.css',
+  'assets/vendor/glightbox-new/css/glightbox.css',
   'assets/css/style.css'
 ];
 
@@ -69,6 +69,6 @@ async function runnerStart(){
 console.log('START - Ping!');
 
 runnerStart().then(() => {
-  document.documentElement.style.display = 'block'; 
+  // document.documentElement.style.display = 'block'; 
   console.log('START - Ping Pong!')
 });

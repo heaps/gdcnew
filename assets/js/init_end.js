@@ -2,13 +2,17 @@
 //                END - LOAD LIBRARIES START
 // ----------------------------------------------------
 
+
+
 var scripts = [
+  'assets/js/components.js',  
   'assets/gdc/header-footer.js',
   'assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js',
   'assets/vendor/tiny-slider/tiny-slider.js',
-  'assets/vendor/glightbox/js/glightbox.js',
+  'assets/vendor/glightbox-new/js/glightbox.js',
   'assets/vendor/purecounterjs/dist/purecounter_vanilla.js',
-  'assets/js/functions.js'
+  'assets/js/functions.js',
+  'assets/js/video.js'  
 ];
 
 function loadScript(url) {
