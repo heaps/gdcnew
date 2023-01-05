@@ -1,5 +1,5 @@
 // Create a class for the element
-class Card extends HTMLElement {
+class VideoCard extends HTMLElement {
   constructor() {
     // Always call super first in constructor
     super();
@@ -8,12 +8,13 @@ class Card extends HTMLElement {
     const img         = this.getAttribute('img');
     const video       = this.getAttribute('video');
     const author      = this.getAttribute('author');
-    const title       = this.getAttribute('title');    
+    const title       = this.getAttribute('title'); 
+    const url         = this.getAttribute('url');
     const description = this.getAttribute('description');        
     const length      = this.getAttribute('length');
 
     let card = `
-          <!-- Card item START -->
+          <!-- Video Card item START -->
             <div class="card shadow h-100">
 
 
@@ -38,10 +39,10 @@ class Card extends HTMLElement {
                 <!-- Badge and favorite -->
                 <div class="d-flex justify-content-between mb-2">
                   <a href="#" class="badge bg-success bg-opacity-10 text-success">${author}</a>
-                  <a href="#" class="h6 mb-0"><i class="far fa-heart"></i></a>
+                  <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
                 </div>
                 <!-- Title -->
-                <h5 class="card-title fw-normal"><a href="#">${title}</a></h5>
+                <h5 class="card-title fw-normal"><a href="${url}">${title}</a></h5>
                 <p class="mb-2 text-truncate-2">${description}</p>
               </div>
               <!-- Card footer -->
@@ -52,7 +53,7 @@ class Card extends HTMLElement {
                 </div>
               </div>
             </div>
-          <!-- Card item END -->
+          <!-- Video Card item END -->
     `;
 
 
@@ -62,8 +63,58 @@ class Card extends HTMLElement {
 }
 
 // Define the new element
-customElements.define('mit-card', Card);
+customElements.define('mit-video-card', VideoCard);
 
+
+// Create a class for the element
+class CourseCard extends HTMLElement {
+  constructor() {
+    // Always call super first in constructor
+    super();
+
+    // attribute content 
+    const img         = this.getAttribute('img');
+    const level       = this.getAttribute('level');
+    const title       = this.getAttribute('title');    
+    const url         = this.getAttribute('url');
+    const description = this.getAttribute('description');        
+    const length      = this.getAttribute('length');
+
+    let card = `
+          <!-- Course Card item START -->
+            <div class="card shadow h-100">
+              <!-- Image -->
+              <img src="${img}" class="card-img-top" alt="course image">
+              <div class="card-body pb-0">
+                <!-- Badge and favorite -->
+                <div class="d-flex justify-content-between mb-2">
+                  <a href="#" class="badge bg-success bg-opacity-10 text-success">${level}</a>
+                  <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+                </div>
+                <!-- Title -->
+                <h5 class="card-title fw-normal"><a href="${url}">${title}</a></h5>
+                <p class="mb-2 text-truncate-2">${description}</p>
+
+              </div>
+              <!-- Card footer -->
+              <div class="card-footer pt-0 pb-3">
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <span class="h6 fw-light mb-0"><i class="fas fa-table text-orange me-2"></i>${length}</span>
+                </div>
+              </div>
+            </div>
+          <!-- Course Card item END -->
+    `;
+
+
+    this.innerHTML = card;    
+
+  }
+}
+
+// Define the new element
+customElements.define('mit-course-card', CourseCard);
 
 /*
 // Create a class for the element
