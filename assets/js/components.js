@@ -116,6 +116,43 @@ class CourseCard extends HTMLElement {
 // Define the new element
 customElements.define('mit-course-card', CourseCard);
 
+
+
+// Create a class for the element
+class VideoButton extends HTMLElement {
+  constructor() {
+    // Always call super first in constructor
+    super();
+
+    // attribute content 
+    const video = this.getAttribute('video');
+    const label = this.getAttribute('label');        
+
+    let labelStr = 'Watch video';
+    if(label){
+      labelStr = label;
+    }
+
+
+    let card = `
+            <!-- Video button -->
+            <div class="d-flex align-items-center justify-content-center py-2 ms-0 ms-sm-4">
+              <a href="https://www.youtube-nocookie.com/embed/${video}" class="btn btn-round btn-white-shadow text-danger me-7 mb-0 overflow-visible glightbox3"> 
+                <i class="fas fa-play"></i>
+                <h6 class="mb-0 ms-3 text-white fw-normal position-absolute start-100 top-50 translate-middle-y">${labelStr}</h6>
+              </a>
+            </div>
+    `;
+
+
+    this.innerHTML = card;    
+
+  }
+}
+
+// Define the new element
+customElements.define('mit-video-button', VideoButton);
+
 /*
 // Create a class for the element
 class Module extends HTMLElement {
