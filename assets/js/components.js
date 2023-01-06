@@ -153,6 +153,43 @@ class VideoButton extends HTMLElement {
 // Define the new element
 customElements.define('mit-video-button', VideoButton);
 
+
+// Create a class for the element
+class Topic extends HTMLElement {
+  constructor() {
+    // Always call super first in constructor
+    super();
+
+    // attribute content 
+    const color = this.getAttribute('color');
+    const icon  = this.getAttribute('icon');
+    const title = this.getAttribute('title');
+    const subtitle  = this.getAttribute('subtitle');        
+    const url   = this.getAttribute('url');    
+
+    let card = `
+          <a href="${url}">
+            <div class="d-flex justify-content-center align-items-center p-2 bg-${color} bg-opacity-15 rounded-3">
+              <span class="display-6 lh-1 text-${color} mb-0"><i class="${icon}"></i></span>
+              <div class="ms-4 h6 fw-normal mb-0">
+                <div class="d-flex">
+                  <h5 class="mb-0 fw-bold">${title}</h5>
+                </div>
+                <p class="mb-0">${subtitle}</p>
+              </div>
+            </div>
+          </a>
+    `;
+
+
+    this.innerHTML = card;    
+
+  }
+}
+
+// Define the new element
+customElements.define('mit-topic', Topic);
+
 /*
 // Create a class for the element
 class Module extends HTMLElement {
