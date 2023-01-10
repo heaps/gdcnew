@@ -69,6 +69,5 @@ async function runnerStart(){
 console.log('START - Ping!');
 
 runnerStart().then(() => {
-  // document.documentElement.style.display = 'block'; 
   console.log('START - Ping Pong!')
 });

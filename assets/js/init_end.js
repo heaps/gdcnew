@@ -2,8 +2,6 @@
 //                END - LOAD LIBRARIES START
 // ----------------------------------------------------
 
-
-
 var scripts = [
   'assets/js/components.js',  
   'assets/gdc/header-footer.js',
@@ -36,7 +34,13 @@ async function runnerEnd(){
 console.log('END - Ping!');
 
 runnerEnd().then(() => {
+  // enable all tooltips
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+  // display page once everything is loaded/finished
   document.documentElement.style.display = 'block'; 
+  document.body.style.display = "block"  
   console.log('END - Ping Pong!')
 });
 

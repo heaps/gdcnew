@@ -190,6 +190,60 @@ class Topic extends HTMLElement {
 // Define the new element
 customElements.define('mit-topic', Topic);
 
+
+// Create a class for the element
+class Pills extends HTMLElement {
+  constructor() {
+    // Always call super first in constructor
+    super();
+
+    // attribute content 
+    const color = this.getAttribute('color');
+
+    let card = `
+            <a href="#" class="badge text-bg-${color}"
+              data-bs-toggle="tooltip" 
+              data-bs-title="Internet of Things"
+            >IOT</a>
+            <a href="#" class="badge text-bg-${color}"
+              data-bs-toggle="tooltip" 
+              data-bs-title="Big Data"            
+            >Data</a>
+            <a href="#" class="badge text-bg-${color}"
+              data-bs-toggle="tooltip" 
+              data-bs-title="Artificial Intelligence & Machine Learning"            
+            >AI</a>
+            <a href="#" class="badge text-bg-${color}"
+              data-bs-toggle="tooltip" 
+              data-bs-title="Blockchain, DeFi, and Web3"            
+            >Web3</a>
+            <a href="#" class="badge text-bg-${color}"
+              data-bs-toggle="tooltip" 
+              data-bs-title="Cloud Technologies"            
+            >Cloud</a>
+            <a href="#" class="badge text-bg-${color}"
+              data-bs-toggle="tooltip" 
+              data-bs-title="Cybersecurity"            
+            >Cybersecurity</a>
+            <a href="#" class="badge text-bg-${color}"
+              data-bs-toggle="tooltip" 
+              data-bs-title="Courses on digital technology"            
+            >Courses</a>
+            <a href="#" class="badge text-bg-${color}"
+              data-bs-toggle="tooltip" 
+              data-bs-title="Sharing education with the world"            
+            >Outreach</a>
+    `;
+
+
+    this.innerHTML = card;    
+
+  }
+}
+
+// Define the new element
+customElements.define('mit-pills', Pills);
+
 /*
 // Create a class for the element
 class Module extends HTMLElement {
