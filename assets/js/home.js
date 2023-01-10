@@ -42,7 +42,7 @@
                     <a href="https://giving.mit.edu/form?fundId=3892672" class="btn btn-lg btn-orange-soft me-2 mb-4 mb-sm-0"> Donate</a>
                     <!-- Video button -->
                     <div class="d-flex align-items-center justify-content-center py-2 ms-0 ms-sm-4">
-                        <a data-glightbox data-gallery="office-tour" href="https://www.youtube.com/embed/L4EgZWh2sQ4" class="btn btn-round btn-primary-shadow mb-0 overflow-visible me-7"> 
+                        <a href="https://www.youtube.com/embed/L4EgZWh2sQ4" class="btn btn-round btn-primary-shadow mb-0 overflow-visible me-7 glightbox3"> 
                             <i class="fas fa-play"></i>
                             <h6 class="mb-0 ms-3 fw-normal position-absolute start-100 top-50 translate-middle-y">Watch video</h6>
                         </a>
@@ -78,7 +78,7 @@
                                                 <div class="row g-2">
                                                     <!-- Counter item -->
                                                     <div class="col px-4 my-2">
-                                                        <a href="pages/data.html">
+                                                        <a href="data.html">
                                                             <div class="d-flex justify-content-center align-items-center p-4 bg-warning bg-opacity-50 rounded-3">
                                                                 <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-solid fa-database"></i></span>
                                                                 <div class="ms-4 h6 fw-normal mb-0 text-white">
@@ -96,7 +96,7 @@
 
                                                     <!-- Counter item -->
                                                     <div class="col px-4 my-2">
-                                                        <a href="pages/web3.html">
+                                                        <a href="web3.html">
                                                             <div class="d-flex justify-content-center align-items-center p-4 bg-blue bg-opacity-50 rounded-3">
                                                                 <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-duotone fa-cubes"></i></span>
                                                                 <div class="ms-4 h6 fw-normal mb-0 text-white">
@@ -114,7 +114,7 @@
 
                                                     <!-- Counter item -->
                                                     <div class="col px-4 my-2">
-                                                        <a href="pages/outreach.html">
+                                                        <a href="outreach.html">
                                                             <div class="d-flex justify-content-center align-items-center p-4 bg-info bg-opacity-50 rounded-3">
                                                                 <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-hands-helping"></i></span>
                                                                 <div class="ms-4 h6 fw-normal mb-0 text-white">
@@ -167,10 +167,12 @@
                                                     <div class="col-11 col-lg-7">
                                                         <!-- Title -->
                                                         <h1 class="text-white display-6">Discover Beautiful Patterns</h1>
-                                                        <p class="text-white">GDC Outreach - Teaching computation to women in Latin America.</p>
+                                                        <p class="text-white">GDC Outreach - Teaching computation to women in Latin America.
+                                                            <a href="https://dreamers.mit.edu" class="link-warning">Project Information.</a> 
+                                                        </p>
                                                         <!-- Button -->
-                                                        <a href="university-admission-form.html" class="btn btn-primary me-2 mb-0">Project</a>
-                                                        <a href="#" class="btn btn-outline-white mb-0">Video</a>
+                                                        <a href="https://www.youtube-nocookie.com/embed/TdjFj4CNvGM" class="btn btn-warning mb-0 glightbox3"><i class="fas fa-play-circle"></i> Video: Crazy Idea</a>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -193,8 +195,7 @@
                                                         <h1 class="text-white display-6">Discover Lifelong Learning</h1>
                                                         <p class="text-white">This Bootstrap 5 based theme is ideal for all types of sites that offer education such as Kindergarten, School, College, University, Courses Hub, Training Center, or any Academy.</p>
                                                         <!-- Button -->
-                                                        <a href="university-admission-form.html" class="btn btn-primary me-2 mb-0">Admissions</a>
-                                                        <a href="#" class="btn btn-outline-white mb-0">Learn More</a>
+                                                        <a href="courses.html" class="btn btn-outline-white mb-0">Learn More</a>
                                                     </div>
                                                 </div>
                                             </div>

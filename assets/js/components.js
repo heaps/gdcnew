@@ -201,35 +201,35 @@ class Pills extends HTMLElement {
     const color = this.getAttribute('color');
 
     let card = `
-            <a href="#" class="badge text-bg-${color}"
+            <a href="iot.html" class="badge text-bg-${color}"
               data-bs-toggle="tooltip" 
               data-bs-title="Internet of Things"
             >IOT</a>
-            <a href="#" class="badge text-bg-${color}"
+            <a href="data.html" class="badge text-bg-${color}"
               data-bs-toggle="tooltip" 
               data-bs-title="Big Data"            
             >Data</a>
-            <a href="#" class="badge text-bg-${color}"
+            <a href="ai.html" class="badge text-bg-${color}"
               data-bs-toggle="tooltip" 
               data-bs-title="Artificial Intelligence & Machine Learning"            
             >AI</a>
-            <a href="#" class="badge text-bg-${color}"
+            <a href="web3.html" class="badge text-bg-${color}"
               data-bs-toggle="tooltip" 
               data-bs-title="Blockchain, DeFi, and Web3"            
             >Web3</a>
-            <a href="#" class="badge text-bg-${color}"
+            <a href="cloud.html" class="badge text-bg-${color}"
               data-bs-toggle="tooltip" 
               data-bs-title="Cloud Technologies"            
             >Cloud</a>
-            <a href="#" class="badge text-bg-${color}"
+            <a href="cybersecurity.html" class="badge text-bg-${color}"
               data-bs-toggle="tooltip" 
               data-bs-title="Cybersecurity"            
             >Cybersecurity</a>
-            <a href="#" class="badge text-bg-${color}"
+            <a href="courses.html" class="badge text-bg-${color}"
               data-bs-toggle="tooltip" 
               data-bs-title="Courses on digital technology"            
             >Courses</a>
-            <a href="#" class="badge text-bg-${color}"
+            <a href="outreach.html" class="badge text-bg-${color}"
               data-bs-toggle="tooltip" 
               data-bs-title="Sharing education with the world"            
             >Outreach</a>
