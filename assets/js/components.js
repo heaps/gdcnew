@@ -66,6 +66,61 @@ class VideoCard extends HTMLElement {
 customElements.define('mit-video-card', VideoCard);
 
 
+
+// Create a class for the element
+class VideoMini extends HTMLElement {
+  constructor() {
+    // Always call super first in constructor
+    super();
+
+    // attribute content 
+    const img         = this.getAttribute('img');
+    const video       = this.getAttribute('video');
+    const title       = this.getAttribute('title'); 
+    const description = this.getAttribute('description');        
+
+    let card = `
+          <!-- Video Card item START -->
+            <div class="card shadow h-100">
+
+
+              <!-- play button overlay -->
+              <div class="position-relative">
+                <img src="${img}" class="card-img-top" alt="course image">
+                <div class="bg-overlay bg-dark opacity-6 rounded-3" class="card-img-top"></div>               
+                <div class="card-img-overlay">
+                  <div class="position-absolute top-50 start-50 translate-middle">
+                              <div class="d-flex align-items-center justify-content-center">
+                        <a href="https://www.youtube-nocookie.com/embed/${video}" class="btn btn-lg btn-round btn-white-shadow text-danger mb-0 overflow-visible glightbox3" style="font-size: 1.5rem;"> 
+                          <i class="fas fa-play" style="font-size: 1.5rem;"></i>
+                        </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Card body -->
+              <div class="card-body pb-0">
+                <!-- Title -->
+                <h5 class="card-title fw-normal"><a href="">${title}</a></h5>
+                <p class="mb-2 text-truncate-2">${description}</p>
+              </div>
+              
+            </div>
+          <!-- Video Card item END -->
+    `;
+
+
+    this.innerHTML = card;    
+
+  }
+}
+
+// Define the new element
+customElements.define('mit-video-mini', VideoMini);
+
+
 // Create a class for the element
 class CourseCard extends HTMLElement {
   constructor() {
@@ -115,6 +170,57 @@ class CourseCard extends HTMLElement {
 
 // Define the new element
 customElements.define('mit-course-card', CourseCard);
+
+
+
+
+// Create a class for the element
+class FacultyCard extends HTMLElement {
+  constructor() {
+    // Always call super first in constructor
+    super();
+
+    // attribute content 
+    const img  = this.getAttribute('img');
+    const name = this.getAttribute('name');
+    const bio  = this.getAttribute('bio');    
+
+    let card = `
+      <div class="py-2">
+          <div class="card shadow p-2">
+            <div class="row g-0">
+              <!-- Image -->
+              <div class="col-md-4">
+                <img src="${img}" class="img-fluid rounded-3" alt="...">
+              </div>
+
+              <!-- Card body -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <!-- Title -->
+                  <div class="d-sm-flex justify-content-sm-between mb-2 mb-sm-3">
+                    <div>
+                      <h5 class="card-title mb-0"><a href="#">${name}</a></h5>
+                    </div>
+                  </div>
+                  <!-- Content -->
+                  <p class="mb-3">${bio}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    `;
+
+    this.innerHTML = card;    
+  }
+}
+
+// Define the new element
+customElements.define('mit-faculty-card', FacultyCard);
+
+
+
 
 
 
@@ -221,7 +327,7 @@ class Pills extends HTMLElement {
               data-bs-toggle="tooltip" 
               data-bs-title="Cloud Technologies"            
             >Cloud</a>
-            <a href="cybersecurity.html" class="badge text-bg-${color}"
+            <a href="security.html" class="badge text-bg-${color}"
               data-bs-toggle="tooltip" 
               data-bs-title="Cybersecurity"            
             >Cybersecurity</a>
@@ -243,6 +349,34 @@ class Pills extends HTMLElement {
 
 // Define the new element
 customElements.define('mit-pills', Pills);
+
+
+// Create a class for the element
+class Pill extends HTMLElement {
+  constructor() {
+    // Always call super first in constructor
+    super();
+
+    // attribute content 
+    const color = this.getAttribute('color');
+    const url   = this.getAttribute('url');
+    const label = this.getAttribute('url');    
+
+    let card = `
+            <a href="${url}" class="badge text-bg-${color}"
+              data-bs-toggle="tooltip" 
+              data-bs-title="${label}"
+            >${label}</a>
+    `;
+
+
+    this.innerHTML = card;    
+
+  }
+}
+
+// Define the new element
+customElements.define('mit-pill', Pill);
 
 /*
 // Create a class for the element

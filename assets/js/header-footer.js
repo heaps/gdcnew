@@ -40,7 +40,7 @@ var navbar_html = `
 							<li> <a class="dropdown-item" href="courses.html"><i class="fas fa-solid fa-book-open"></i> Courses</a> </li>
                             <li> <a class="dropdown-item" href="outreach.html"><i class="fas fa-hands-helping"></i> Outreach</a> </li>
                             <li> <hr class="dropdown-divider"></li>
-                            <li> <a class="dropdown-item" href="more.html"><i class="fas fa-info-circle"></i> More ...</a> </li>                            
+                            <li> <a class="dropdown-item" href=""><i class="fas fa-info-circle"></i> More ...</a> </li>                            
 							
 						</ul>
                         
@@ -84,13 +84,14 @@ var navbar_html = `
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="demoMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">People</a>
 						<ul class="dropdown-menu" aria-labelledby="demoMenu">
-							<li> <a class="dropdown-item active" href="people.html">People</a></li>
-							<li> <a class="dropdown-item" href="people.html">Advisors - Leadership Committee</a></li>
-							<li> <a class="dropdown-item" href="people.html">Advisors - Cybersecurity</a></li>
-							<li> <a class="dropdown-item" href="people.html">Advisors - Supply Chain</a></li>
-							<li> <a class="dropdown-item" href="people.html">Advisors - Media</a></li>
-							<li> <a class="dropdown-item" href="people.html">Advisors - GIS</a></li>
-							<li> <a class="dropdown-item" href="people.html">Join Us</a></li>
+							<li> <a class="dropdown-item" href="people.html">People</a></li>
+							<li> <a class="dropdown-item" href="people.html#team">Meet the Team</a></li>
+							<li> <a class="dropdown-item" href="people.html#leadership">Advisors - Leadership Committee</a></li>
+							<li> <a class="dropdown-item" href="people.html#security">Advisors - Cybersecurity</a></li>
+							<li> <a class="dropdown-item" href="people.html#supplychain">Advisors - Supply Chain</a></li>
+							<li> <a class="dropdown-item" href="people.html#media">Advisors - Media</a></li>
+							<li> <a class="dropdown-item" href="people.html#gis">Advisors - GIS</a></li>
+							<li> <a class="dropdown-item" href="people.html#join">Join Us</a></li>
 						</ul>
 					</li>
 
@@ -152,7 +153,7 @@ Footer START -->
 					<img class="light-mode-item h-40px" src="assets/gdc/logo_small.svg" alt="logo">
 					<img class="dark-mode-item h-40px" src="assets/gdc/logo_small.svg" alt="logo">
 				</a>
-				<p class="my-3">Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.</p>
+				<p class="my-3">The MIT Geospatial Data Center is the uniting force of MIT's Intelligent Engineering Systems Laboratory, bringing together applied computation research in Data Science, Cybersecurity, Simulation, Augmented Reality, the Internet of Things (IOT), Blockchain, and Educational Technology (EdTech).</p>
 				<!-- Social media icon -->
 				<ul class="list-inline mb-0 mt-3">
 					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook" href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
@@ -173,7 +174,7 @@ Footer START -->
 							<li class="nav-item"><a class="nav-link" href="people.html">About us</a></li>
 							<li class="nav-item"><a class="nav-link" href="people.html">Contact us</a></li>
 							<li class="nav-item"><a class="nav-link" href="people.html">Director</a></li>
-							<li class="nav-item"><a class="nav-link" href="people.html">Executive Director</a></li>
+							<li class="nav-item"><a class="nav-link" href="people.html">Leadership</a></li>
 							<li class="nav-item"><a class="nav-link" href="people.html">Join Us</a></li>
 						</ul>
 					</div>
@@ -182,20 +183,21 @@ Footer START -->
 					<div class="col-6 col-md-4">
 						<h5 class="mb-2 mb-md-4">Community</h5>
 						<ul class="nav flex-column">
-							<li class="nav-item"><a class="nav-link" href="#">Documentation</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Beautiful Patterns</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Outreach</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Volunteering</a></li>
 							<li class="nav-item"><a class="nav-link" href="#">Sitemap</a></li>
 						</ul>
 					</div>
 
 					<!-- Link block -->
 					<div class="col-6 col-md-4">
-						<h5 class="mb-2 mb-md-4">Teaching</h5>
+						<h5 class="mb-2 mb-md-4">Content</h5>
 						<ul class="nav flex-column">
-							<li class="nav-item"><a class="nav-link" href="people.html">Become a teacher</a></li>
-							<li class="nav-item"><a class="nav-link" href="people.html">How to guide</a></li>
-							<li class="nav-item"><a class="nav-link" href="people.html">Terms &amp; Conditions</a></li>
+							<li class="nav-item"><a class="nav-link" href="people.html">Programs</a></li>
+							<li class="nav-item"><a class="nav-link" href="people.html">Courses</a></li>
+							<li class="nav-item"><a class="nav-link" href="people.html">Podcast</a></li>
+							<li class="nav-item"><a class="nav-link" href="people.html">YouTube</a></li>							
 						</ul>
 					</div>
 				</div>

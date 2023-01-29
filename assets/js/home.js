@@ -78,12 +78,12 @@
                                                 <div class="row g-2">
                                                     <!-- Counter item -->
                                                     <div class="col px-4 my-2">
-                                                        <a href="data.html">
+                                                        <a href="ai.html">
                                                             <div class="d-flex justify-content-center align-items-center p-4 bg-warning bg-opacity-50 rounded-3">
-                                                                <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-solid fa-database"></i></span>
+                                                                <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-brain"></i></span>
                                                                 <div class="ms-4 h6 fw-normal mb-0 text-white">
                                                                     <div class="d-flex">
-                                                                        <h5 class="text-white mb-0 fw-bold">Data</h5>
+                                                                        <h5 class="text-white mb-0 fw-bold">AI</h5>
                                                                     </div>
                                                                     <p class="mb-0">AI, ML, Ops, Cloud</p>
                                                                 </div>
@@ -96,14 +96,14 @@
 
                                                     <!-- Counter item -->
                                                     <div class="col px-4 my-2">
-                                                        <a href="web3.html">
+                                                        <a href="data.html">
                                                             <div class="d-flex justify-content-center align-items-center p-4 bg-blue bg-opacity-50 rounded-3">
-                                                                <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-duotone fa-cubes"></i></span>
+                                                                <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-solid fa-database"></i></span>
                                                                 <div class="ms-4 h6 fw-normal mb-0 text-white">
                                                                     <div class="d-flex">
-                                                                        <h5 class="text-white mb-0 fw-bold">Web3</h5>
+                                                                        <h5 class="text-white mb-0 fw-bold">Data</h5>
                                                                     </div>
-                                                                    <p class="mb-0">BC, DeFi, Metaverse</p>
+                                                                    <p class="mb-0">Modern data stack </p>
                                                                 </div>
                                                             </div>
                                                         </a>
@@ -114,14 +114,14 @@
 
                                                     <!-- Counter item -->
                                                     <div class="col px-4 my-2">
-                                                        <a href="outreach.html">
+                                                        <a href="iot.html">
                                                             <div class="d-flex justify-content-center align-items-center p-4 bg-info bg-opacity-50 rounded-3">
-                                                                <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-hands-helping"></i></span>
+                                                                <span class="display-6 lh-1 text-white mb-0"><i class="bi bi-broadcast-pin"></i></span>
                                                                 <div class="ms-4 h6 fw-normal mb-0 text-white">
                                                                     <div class="d-flex">
-                                                                        <h5 class="text-white mb-0 fw-bold">Outreach</h5>
+                                                                        <h5 class="text-white mb-0 fw-bold">IOT</h5>
                                                                     </div>
-                                                                    <p class="mb-0">Education Outreach</p>
+                                                                    <p class="mb-0">Internet of Things</p>
                                                                 </div>
                                                             </div>
                                                         </a>
@@ -133,14 +133,14 @@
 
                                                     <!-- Counter item -->
                                                     <div class="col px-4 my-2">
-                                                        <a href="https://giving.mit.edu/form?fundId=3892672">
+                                                        <a href="web3.html">
                                                             <div class="d-flex justify-content-center align-items-center p-4 bg-purple bg-opacity-50 rounded-3">
-                                                                <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-hand-holding-usd"></i></span>
+                                                                <span class="display-6 lh-1 text-white mb-0"><i class="fas fa-duotone fa-cubes"></i></span>
                                                                 <div class="ms-4 h6 fw-normal mb-0 text-white">
                                                                     <div class="d-flex">
-                                                                        <h5 class="text-white mb-0 fw-bold">Donate</h5>
+                                                                        <h5 class="text-white mb-0 fw-bold">Web3</h5>
                                                                     </div>
-                                                                    <p class="mb-0">Support GDC's Mission</p>
+                                                                    <p class="mb-0">BC, DeFi, Metaverse</p>
                                                                 </div>
                                                             </div>
                                                         </a>

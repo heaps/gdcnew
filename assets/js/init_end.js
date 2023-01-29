@@ -4,7 +4,7 @@
 
 var scripts = [
   'assets/js/components.js',  
-  'assets/gdc/header-footer.js',
+  'assets/js/header-footer.js',
   'assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js',
   'assets/vendor/tiny-slider/tiny-slider.js',
   'assets/vendor/glightbox-new/js/glightbox.js',
