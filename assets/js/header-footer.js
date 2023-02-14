@@ -69,13 +69,16 @@ var navbar_html = `
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="demoMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
 						<ul class="dropdown-menu" aria-labelledby="demoMenu">
-							<li> <a class="dropdown-item active" href="index1.html">Course 1</a></li>
-							<li> <a class="dropdown-item" href="course2.html">Course 2</a></li>
-							<li> <a class="dropdown-item" href="course3.html">Course 3</a></li>
-							<li> <a class="dropdown-item" href="course4.html">Course 4</a></li>
-							<li> <a class="dropdown-item" href="course5.html">Course 5</a></li>
-							<li> <a class="dropdown-item" href="course6.html">Course 6</a></li>
-							<li> <a class="dropdown-item" href="course7.html">Course 7</a></li>
+							<li> <a class="dropdown-item active" href="courses.html">All Courses</a></li>
+							<li> <a class="dropdown-item" href="https://professional.mit.edu/course-catalog/blockchain-disruptive-technology">Blockchain: Disruptive Technology</a></li>
+							<li> <a class="dropdown-item" href="https://professional.mit.edu/course-catalog/applied-cybersecurity-0">Applied Cybersecurity</a></li>
+							<li> <a class="dropdown-item" href="https://professional.mit.edu/course-catalog/data-leadership-transforming-corporations-operations-management-and-mindset-leverage">Data Leadership</a></li>
+							<li> <a class="dropdown-item" href="https://professional.mit.edu/course-catalog/digital-transformation-and-applied-devops">Applied DevOps</a></li>
+							<li> <a class="dropdown-item" href="https://professional.mit.edu/course-catalog/digital-transformation-ai-and-iot-cloud-blockchain-and-cybersecurity">Digital Transformation</a></li>
+							<li> <a class="dropdown-item" href="https://professional.mit.edu/course-catalog/blended-professional-certificate-chief-digital-officer">Chief Digital Officer</a></li>
+							<li> <a class="dropdown-item" href="https://professional.mit.edu/course-catalog/blended-professional-certificate-chief-product-officer">Chief Product Officer</a></li>
+							<li> <a class="dropdown-item" href="https://professional.mit.edu/course-catalog/blended-professional-certificate-chief-technology-officer">Chief Technology Officer</a></li>
+							<li> <a class="dropdown-item" href="https://professional.mit.edu/course-catalog/technology-leadership-program">Technology Leadership</a></li>
 						</ul>
 					</li>
 
@@ -183,10 +186,10 @@ Footer START -->
 					<div class="col-6 col-md-4">
 						<h5 class="mb-2 mb-md-4">Community</h5>
 						<ul class="nav flex-column">
-							<li class="nav-item"><a class="nav-link" href="#">Beautiful Patterns</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Outreach</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Volunteering</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Sitemap</a></li>
+							<li class="nav-item"><a class="nav-link" href="outreach.html">Beautiful Patterns</a></li>
+							<li class="nav-item"><a class="nav-link" href="outreach.html">Outreach</a></li>
+							<li class="nav-item"><a class="nav-link" href="outreach.html">Volunteering</a></li>
+							<li class="nav-item"><a class="nav-link" href="outreach.html">Sitemap</a></li>
 						</ul>
 					</div>
 
@@ -194,10 +197,9 @@ Footer START -->
 					<div class="col-6 col-md-4">
 						<h5 class="mb-2 mb-md-4">Content</h5>
 						<ul class="nav flex-column">
-							<li class="nav-item"><a class="nav-link" href="people.html">Programs</a></li>
-							<li class="nav-item"><a class="nav-link" href="people.html">Courses</a></li>
-							<li class="nav-item"><a class="nav-link" href="people.html">Podcast</a></li>
-							<li class="nav-item"><a class="nav-link" href="people.html">YouTube</a></li>							
+							<li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+							<li class="nav-item"><a class="nav-link" href="courses.html">Podcast</a></li>
+							<li class="nav-item"><a class="nav-link" href="courses.html">YouTube</a></li>							
 						</ul>
 					</div>
 				</div>
